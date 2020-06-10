@@ -13,6 +13,7 @@
 		D5B17C9A249082910032EB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B17C98249082910032EB70 /* Main.storyboard */; };
 		D5B17C9C249082960032EB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B17C9B249082960032EB70 /* Assets.xcassets */; };
 		D5B17C9F249082960032EB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B17C9D249082960032EB70 /* LaunchScreen.storyboard */; };
+		D5B17CA72490834E0032EB70 /* SlidingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B17CA62490834E0032EB70 /* SlidingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D5B17C9B249082960032EB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B17C9E249082960032EB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5B17CA0249082960032EB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B17CA62490834E0032EB70 /* SlidingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D5B17C9B249082960032EB70 /* Assets.xcassets */,
 				D5B17C9D249082960032EB70 /* LaunchScreen.storyboard */,
 				D5B17CA0249082960032EB70 /* Info.plist */,
+				D5B17CA62490834E0032EB70 /* SlidingButton.swift */,
 			);
 			path = PocSlidingButton;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B17CA72490834E0032EB70 /* SlidingButton.swift in Sources */,
 				D5B17C97249082910032EB70 /* ViewController.swift in Sources */,
 				D5B17C93249082910032EB70 /* AppDelegate.swift in Sources */,
 				D5B17C95249082910032EB70 /* SceneDelegate.swift in Sources */,
